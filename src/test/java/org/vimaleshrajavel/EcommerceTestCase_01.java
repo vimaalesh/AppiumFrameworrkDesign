@@ -24,6 +24,8 @@ public class EcommerceTestCase_01 extends EcommBaseTest {
 				AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Argentina\"))"));
 		driver.findElement(By.xpath("//android.widget.TextView[@text='Argentina']")).click();
 		driver.findElement(AppiumBy.id("com.androidsample.generalstore:id/btnLetsShop")).click();
+		
+		System.out.println("Test 01");
 
 	}
 	 
